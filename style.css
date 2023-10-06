@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,600;6..12,800&display=swap");
+/* font-family: 'Nunito Sans', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body,
+header,
+.search-and-filter,
+#countries {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #212c36;
+  color: white;
+  flex-direction: column;
+}
+
+header {
+  width: 100vw;
+  justify-content: space-between;
+  background-color: #2c3743;
+  padding: 1rem 3rem;
+  font-size: large;
+}
+
+.theme {
+  cursor: pointer;
+}
+
+.search-and-filter {
+  /* border: solid red; */
+  width: 100vw;
+  justify-content: space-between;
+  margin: 2rem 0;
+  padding: 1rem 3rem;
+}
+
+.search-bar {
+  /* background-color: #2c3743; */
+  /* padding: 1.5rem 3rem; */
+}
+
+.search-bar input {
+  position: relative;
+  /* padding-left: 2rem; */
+  padding: 1.5rem 2rem 1.5rem 5rem;
+  width: 40rem;
+  /* justify-content: flex-start; */
+}
+
+.search-bar input,
+#filter-options {
+  background-color: #2c3743;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: large;
+}
+
+.search-icon {
+  position: absolute;
+  left: 4.5rem;
+  top: 11.6rem;
+  font-size: 1.8rem;
+  z-index: 1;
+}
+
+#filter-options {
+  /* background-color: #2c3743;
+  color: white;
+  font-size: large; */
+  padding: 1.5rem 3rem;
+  cursor: pointer;
+}
+
+#countries {
+  margin: 0 3rem;
+  /* border: 1px solid white; */
+  /* flex-direction: column; */
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+
+.country-info {
+  /* padding-left: 1.5rem; */
+  display: grid;
+  white-space: pre;
+  width: 20rem;
+}
+
+.country-info > p {
+  font-size: 1.3rem;
+}
+
+.imgOfCountry {
+  width: 30rem;
+  height: 14rem;
+  object-fit: cover;
+  border-top-right-radius: 0.3rem;
+  border-top-left-radius: 0.3rem;
+}
+
+h3.nameOfCountry {
+  width: 30rem;
+  font-size: 1.8rem;
+  margin: 1rem 0;
+  overflow: hidden;
+}
+
+.country {
+  background-color: #2a3743;
+  border-radius: 0.3rem;
+  /* padding: 1rem; */
+  height: 30rem;
+}

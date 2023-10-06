@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rest Countries</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Where in the world?</h1>
+      <div class="theme">
+        <i class="fa-solid fa-moon" style="color: white"></i>
+        <span>Dark Mode</span>
+      </div>
+    </header>
+    <main>
+      <div class="search-and-filter">
+        <div class="search-bar">
+          <i
+            class="fa-solid fa-magnifying-glass search-icon"
+            style="color: white"
+          ></i>
+          <input
+            type="text"
+            placeholder="Search for a country..."
+            class="search-inp"
+          />
+        </div>
+        <div class="filter">
+          <select id="filter-options">
+            <option value="" selected style="display: none">
+              Filter by Region
+            </option>
+            <option value="Africa">Africa</option>
+            <option value="America">America</option>
+            <option value="Asia">Asia</option>
+            <option value="Europe">Europe</option>
+            <option value="Oceania">Oceania</option>
+          </select>
+        </div>
+      </div>
+      <div id="countries"></div>
+    </main>
+    <script src="/index.js"></script>
+  </body>
+</html>
