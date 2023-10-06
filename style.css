@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,600;6..12,800&display=swap");
-/* font-family: 'Nunito Sans', sans-serif; */
 
 * {
   margin: 0;
@@ -40,24 +39,16 @@ header {
 }
 
 .search-and-filter {
-  /* border: solid red; */
   width: 100vw;
   justify-content: space-between;
   margin: 2rem 0;
   padding: 1rem 3rem;
 }
 
-.search-bar {
-  /* background-color: #2c3743; */
-  /* padding: 1.5rem 3rem; */
-}
-
 .search-bar input {
   position: relative;
-  /* padding-left: 2rem; */
   padding: 1.5rem 2rem 1.5rem 5rem;
   width: 40rem;
-  /* justify-content: flex-start; */
 }
 
 .search-bar input,
@@ -78,23 +69,17 @@ header {
 }
 
 #filter-options {
-  /* background-color: #2c3743;
-  color: white;
-  font-size: large; */
   padding: 1.5rem 3rem;
   cursor: pointer;
 }
 
 #countries {
   margin: 0 3rem;
-  /* border: 1px solid white; */
-  /* flex-direction: column; */
   gap: 5rem;
   flex-wrap: wrap;
 }
 
 .country-info {
-  /* padding-left: 1.5rem; */
   display: grid;
   white-space: pre;
   width: 20rem;
@@ -122,6 +107,5 @@ h3.nameOfCountry {
 .country {
   background-color: #2a3743;
   border-radius: 0.3rem;
-  /* padding: 1rem; */
   height: 30rem;
 }
