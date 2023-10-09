@@ -3,7 +3,7 @@ const getCountries = async (url) => {
   const data = await res.json();
   console.log(data);
   data.forEach((item) => {
-    console.log(item);
+    // console.log(item);
     document.getElementById("countries").innerHTML += `
         <div class = "country">
             <img class = "imgOfCountry" src=${item.flag} alt="img" />
